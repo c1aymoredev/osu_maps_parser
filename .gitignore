@@ -33,6 +33,5 @@ ENV/
 .vs/
 
 # Project specific
-*.config
 *.log
 *.db
