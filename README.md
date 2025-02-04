@@ -1,4 +1,4 @@
-# osu! Maps Parser 🎵
+# osu! Maps Parser 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![osu!api v2](https://img.shields.io/badge/osu!api-v2-pink.svg)](https://osu.ppy.sh/docs/index.html)
@@ -6,7 +6,7 @@
 
 Asynchronous Python script for collecting data about all ranked beatmaps in osu! using the official API v2. The data is stored in a PostgreSQL database for further analysis.
 
-## ✨ Features
+## Features
 
 - Downloads all ranked beatmaps information
 - Stores detailed map data (AR, OD, CS, HP, BPM, etc.)
@@ -14,13 +14,13 @@ Asynchronous Python script for collecting data about all ranked beatmaps in osu!
 - Supports resuming from last position
 - Shows progress statistics during execution
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - PostgreSQL
 - osu! API v2 credentials
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -47,7 +47,7 @@ CLIENT_SECRET = "your_client_secret"
 DB_DSN = "postgresql://postgres:your_password@localhost/osu_maps"
 ```
 
-## 📝 Usage
+## Usage
 
 Run the program:
 ```bash
@@ -81,10 +81,10 @@ Main beatmap fields:
 - `ranked_date` - when the map was ranked
 - `raw_data` - full JSON data from API
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! Feel free to contribute to improve the project.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
