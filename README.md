@@ -39,7 +39,6 @@ CREATE DATABASE osu_maps;
 ```
 
 4. Configure the program:
-- Copy `config.example.py` to `config.py`
 - Get your osu! API credentials from https://osu.ppy.sh/home/account/edit#oauth
 - Update `config.py` with your credentials:
 ```python
